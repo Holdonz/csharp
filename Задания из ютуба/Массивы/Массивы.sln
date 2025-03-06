@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Массивы", "Массивы\Массивы.csproj", "{A142ABDD-BFBB-4246-B646-4368C5768731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A142ABDD-BFBB-4246-B646-4368C5768731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142ABDD-BFBB-4246-B646-4368C5768731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142ABDD-BFBB-4246-B646-4368C5768731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142ABDD-BFBB-4246-B646-4368C5768731}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E3C182A-49BC-4501-BDE3-D7000D650744}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Треугольники (вложенные циклы)", "Треугольники (вложенные циклы)\Треугольники (вложенные циклы).csproj", "{FCA2E138-7165-4FAA-BEB0-6FCDF65D1566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA2E138-7165-4FAA-BEB0-6FCDF65D1566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA2E138-7165-4FAA-BEB0-6FCDF65D1566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA2E138-7165-4FAA-BEB0-6FCDF65D1566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA2E138-7165-4FAA-BEB0-6FCDF65D1566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47E92C99-87D8-4AC2-8A0F-432C43B62DCA}
+	EndGlobalSection
+EndGlobal
