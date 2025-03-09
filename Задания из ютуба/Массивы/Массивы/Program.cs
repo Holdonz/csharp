@@ -14,9 +14,8 @@ namespace Массивы
             Console.Write("Введите количество элементов в массиве: ");
             int[] collectArray = new int [int.Parse(Console.ReadLine())];
             int minValueArray = collectArray[0];
+
             Console.WriteLine("Необходимо заполнить массив данными\nВведите для каждого элемента число:");
-
-
             for (int i = 0; i < collectArray.Length; i++)
             {
                 collectArray[i] = int.Parse(Console.ReadLine());
@@ -34,6 +33,7 @@ namespace Массивы
                 Console.WriteLine($"{i}: {collectArray[i]}");
             }
 
+            Console.WriteLine("\nСумма четных чисел в массиве: " + evenSumArray);
             for (int i = 0; i < collectArray.Length; i++)
             {
                 if (collectArray[i] % 2 == 0)
@@ -41,9 +41,9 @@ namespace Массивы
                     evenSumArray += collectArray[i];
                 }
             }
-            Console.WriteLine("\nСумма четных чисел в массиве: " + evenSumArray);
 
             //эту часть задания я не догадался сделать, но я смог реализовать через вызов метода collectArray.Min();
+            Console.WriteLine("\nМинимальное значение в массиве: " + minValueArray);
             for (int i = 0; i < collectArray.Length; i++)
             {
                 if (collectArray[i] < minValueArray)
@@ -51,7 +51,7 @@ namespace Массивы
                     minValueArray = collectArray[i];
                 }
             }
-            Console.WriteLine("\nМинимальное значение в массиве: " + minValueArray);
+            
         }
     }
 }
