@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы (Вывод строки)", "Методы (Вывод строки)\Методы (Вывод строки).csproj", "{53E35AE1-D02E-4879-9BCD-706CCB764348}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы (поиск индекса)", "Методы (поиск индекса)\Методы (поиск индекса).csproj", "{564CCD54-B4F9-4103-BEFC-B40E799AAD2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Метод (Resize)", "Метод (Resize)\Метод (Resize).csproj", "{63662177-8801-442F-9AD9-BD5D702EDBEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{564CCD54-B4F9-4103-BEFC-B40E799AAD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564CCD54-B4F9-4103-BEFC-B40E799AAD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564CCD54-B4F9-4103-BEFC-B40E799AAD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63662177-8801-442F-9AD9-BD5D702EDBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63662177-8801-442F-9AD9-BD5D702EDBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63662177-8801-442F-9AD9-BD5D702EDBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63662177-8801-442F-9AD9-BD5D702EDBEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
