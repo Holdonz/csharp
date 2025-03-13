@@ -33,19 +33,13 @@ namespace Метод__Resize_
             Resize(ref myArray, size);
         }
         
-        //данный метод не работает как надо. Он добавляет элементы и при этом не помещает старые элементы в новый массив
+        //все оказалось гораздо проще чем я думал
         static void Resize(ref int[] array, int newSize)
         {
-            int[] array2 = new int[array.Length + newSize];
-            array = array2;
-            if (0 > array.Length + newSize)
-            {
-                Console.WriteLine("Количество элементов не может быть отрицательным");
-            }
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.WriteLine($"{i}: {array[i]}");
-            }                       
+            int[] newArray = new int[newSize];
+            for (int i = 0; i < array.Length && i < newArray.Length; i++)
+                newArray[i] = array[i];
+            array = newArray;
         }
     }
 }
