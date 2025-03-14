@@ -29,7 +29,6 @@ namespace Метод__Resize_
 
             Console.WriteLine($"Ваш массив:");
             Console.WriteLine();
-            Array.Resize(ref myArray, 5);
             Resize(ref myArray, size);
         }
         
